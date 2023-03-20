@@ -1,16 +1,50 @@
-### Hi there 👋
-
-<!--
-**oussamajazi/oussamajazi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Oussama Jazi - Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+      body {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>ya hamdi ya 5obza</h1>
+      <p>oussama > hamdi.</p>
+    </header>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I hamdi 5obza.</p>
+    </section>
+  
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2023 Oussama Jazi. All rights reserved.</p>
+      <p><a href="https://youtube.com/watch?v=WIRK_pGdIdA&feature=shares">https://youtube.com/watch?v=WIRK_pGdIdA&feature=shares</a></p>
+    </footer>
+  </body>
+</html>
 -->
